@@ -1,6 +1,6 @@
 {
     "docs"      : {"我的文章":"posts"},
-    "template"    : "phase",
+    "template"    : "pithiness",
     "domain_alias" :  ["doc.lubanren.com"], 
     "perpage"   : 10,
     "order"  : "number",
