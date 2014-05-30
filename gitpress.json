@@ -1,6 +1,6 @@
 {
-    "docs"      : ["posts"],
-    "template"    : "default",
+    "docs"      : ["readme.md","posts"],
+    "template"    : "slate",
     "domain_alias" :  ["doc.lubanren.com"], 
     "perpage"   : 10,
     "order"  : "number",
