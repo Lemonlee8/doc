@@ -1,7 +1,6 @@
 {
     "docs"      : ["posts"],
     "template"    : "default",
-    "domain_alias" :  ["doc.lubanren.com"],    
     "perpage"   : 10,
     "order"  : "number",
     "types"     : {
