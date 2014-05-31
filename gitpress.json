@@ -12,7 +12,7 @@
     },
     "title"  : "xxxx's Blog",
     "description" : "My Blog Description...",
-    "comment"  : {"type":"duoshuo", "short_name":"gitt"},
+    "comment"  : {"type":" disqus", "short_name":"gitpress"},
     "friends"  : [
         {
           "name"  : "github",
