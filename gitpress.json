@@ -1,7 +1,7 @@
 {
-    "docs"      : ["posts"],
-    "template"    : "default",
-    "domain_alias" :  ["doc.lubanren.com"],
+    "docs"      : {"我的文章":"posts"},
+    "template"    : "pithiness",
+    "domain_alias" :  ["doc.lubanren.com"], 
     "perpage"   : 10,
     "order"  : "number",
     "types"     : {
@@ -10,9 +10,9 @@
         "\\.html?$"            : "html",
         ".*"                   : "text"        
     },
-    "title"  : "Akira's Blog",
+    "title"  : "xxxx's Blog",
     "description" : "My Blog Description...",
-    "comment"  : {"type":"disqus", "short_name":"gitpress"},
+    "comment"  : {"type":"duoshuo", "short_name":"gitt"},
     "friends"  : [
         {
           "name"  : "github",
