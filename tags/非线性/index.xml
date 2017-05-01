@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>非线性 on LubanRen</title>
+    <link>https://lemonlee8.github.io/tags/%E9%9D%9E%E7%BA%BF%E6%80%A7/</link>
+    <description>Recent content in 非线性 on LubanRen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
+    <lastBuildDate>Sat, 15 Apr 2017 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E9%9D%9E%E7%BA%BF%E6%80%A7/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>应变渗透与粘接滑移</title>
+      <link>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
+      <pubDate>Sat, 15 Apr 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
+      <description>&lt;p&gt;最近，遇到一个新概念：应变渗透（Strain Penetration）。名字听起来很高深的样子，同时发现&lt;a href=&#34;https://www.zhihu.com/question/40954658&#34; target=&#34;_blank&#34;&gt;知乎&lt;/a&gt;上也有人在问这个概念，于是通过查阅文献给自己科普了一下。&lt;/p&gt;
+
+&lt;h4 id=&#34;原理简述&#34;&gt;原理简述&lt;/h4&gt;
+
+&lt;p&gt;假设一根钢筋充分锚固于混凝土中（这里充分锚固一般指满足规范的锚固长度），当有一个非常大的拉力作用于钢筋端头并使钢筋屈服，很明显拉力是通过钢筋逐渐传递到混凝土中去的，沿着钢筋的长度方向由外到内钢筋的拉应力逐渐减小，混凝土的粘接力整体上逐渐增加，直到某一点钢筋拉应力为零时，可以认为完成了拉力的传递。在拉力传递的过程中，钢筋的应变和混凝土的应变均是逐渐变化的，因此形象地称之为&lt;strong&gt;应变渗透（Strain Penetration）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;在拉力传递的过程中，在钢筋的应变小于混凝土的极限应变的区段，可以认为钢筋和混凝土的变形是协调的，而在钢筋的应变超过混凝土的极限应变区段，钢筋和混凝土的变形是不协调的，由于不同应变的累积效应，在混凝土的表面，钢筋表现为明显的滑移。这种现象我们称之为&lt;strong&gt;粘结滑移（Bond-Slip）&lt;/strong&gt;。粘接滑移的结果是在混凝土的表面形成裂缝，或者对于受弯构件端部发生转动，形成塑性铰。&lt;/p&gt;
+
+&lt;p&gt;参考图1和图2，图片均来自于Sritharan, S的论文。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;图1 充分锚固钢筋的应变渗透&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration2.PNG&#34; alt=&#34;图1 充分锚固钢筋的应变渗透&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;图2 桥墩与盖梁节点在充分锚固时的粘结滑移&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration1.PNG&#34; alt=&#34;图2 桥墩与盖梁节点在充分锚固时的粘结滑移&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;何时考虑&#34;&gt;何时考虑&lt;/h4&gt;
+
+&lt;p&gt;“试验研究表时，这种粘结滑移引起的端部转动影响可占到受弯构件侧向变形的35%。应变渗透和与其相关的构件端部转角对受弯构件临界区域的局部应变和曲率、以及受弯构件的刚度有很大影响。忽略应变渗透也会影响构件的耗能能力，但影响程序较小。”&lt;/p&gt;
+
+&lt;p&gt;“Experimental studies have generally reported that this end rotation contributes up to 35% to the lateral deformation of flexural members.4-6 The strain penetration and the associated end rotation also greatly influence the localized strains and curvature in the critical regions and stiffness of the flexural member. Ignoring the strain penetration also affects the energy dissipation capacity of the members, but to a lesser extent.”&lt;/p&gt;
+
+&lt;p&gt;初步理解，这种效应是极细微的效应，只有结构进入到严重的弹塑性状态才需要考虑，而且数值模拟困难，需要很多非线性单位简化。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S.  未深入研究，简单的个人理解记录于此，望专业人士斧正。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;参考&#34;&gt;参考&lt;/h4&gt;
+
+&lt;p&gt;[1] Sritharan, S.; Priestley, N.; and Seible, F., “Nonlinear Finite Element Analyses of Concrete Bridge Joint Systems Subjected to Seismic Actions,” Finite Elements in Analysis and Design, V. 36, 2000, pp. 215-233.&lt;/p&gt;
+
+&lt;p&gt;[2] Jian Zhao; Sritharan, S, &amp;ldquo;Modeling of Strain Penetration Effects in Fiber-Based Analysis of Reinforced Concrete Structures&amp;rdquo;, ACI Structural Journal, March-April 2007, pp. 133-141.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

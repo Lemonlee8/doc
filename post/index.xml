@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on LubanRen</title>
+    <link>https://lemonlee8.github.io/post/</link>
+    <description>Recent content in 博客 on LubanRen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>应变渗透与粘接滑移</title>
+      <link>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
+      <pubDate>Sat, 15 Apr 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
+      <description>&lt;p&gt;最近，遇到一个新概念：应变渗透（Strain Penetration）。名字听起来很高深的样子，同时发现&lt;a href=&#34;https://www.zhihu.com/question/40954658&#34; target=&#34;_blank&#34;&gt;知乎&lt;/a&gt;上也有人在问这个概念，于是通过查阅文献给自己科普了一下。&lt;/p&gt;
+
+&lt;h4 id=&#34;原理简述&#34;&gt;原理简述&lt;/h4&gt;
+
+&lt;p&gt;假设一根钢筋充分锚固于混凝土中（这里充分锚固一般指满足规范的锚固长度），当有一个非常大的拉力作用于钢筋端头并使钢筋屈服，很明显拉力是通过钢筋逐渐传递到混凝土中去的，沿着钢筋的长度方向由外到内钢筋的拉应力逐渐减小，混凝土的粘接力整体上逐渐增加，直到某一点钢筋拉应力为零时，可以认为完成了拉力的传递。在拉力传递的过程中，钢筋的应变和混凝土的应变均是逐渐变化的，因此形象地称之为&lt;strong&gt;应变渗透（Strain Penetration）&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;在拉力传递的过程中，在钢筋的应变小于混凝土的极限应变的区段，可以认为钢筋和混凝土的变形是协调的，而在钢筋的应变超过混凝土的极限应变区段，钢筋和混凝土的变形是不协调的，由于不同应变的累积效应，在混凝土的表面，钢筋表现为明显的滑移。这种现象我们称之为&lt;strong&gt;粘结滑移（Bond-Slip）&lt;/strong&gt;。粘接滑移的结果是在混凝土的表面形成裂缝，或者对于受弯构件端部发生转动，形成塑性铰。&lt;/p&gt;
+
+&lt;p&gt;参考图1和图2，图片均来自于Sritharan, S的论文。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;图1 充分锚固钢筋的应变渗透&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration2.PNG&#34; alt=&#34;图1 充分锚固钢筋的应变渗透&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;图2 桥墩与盖梁节点在充分锚固时的粘结滑移&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration1.PNG&#34; alt=&#34;图2 桥墩与盖梁节点在充分锚固时的粘结滑移&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;何时考虑&#34;&gt;何时考虑&lt;/h4&gt;
+
+&lt;p&gt;“试验研究表时，这种粘结滑移引起的端部转动影响可占到受弯构件侧向变形的35%。应变渗透和与其相关的构件端部转角对受弯构件临界区域的局部应变和曲率、以及受弯构件的刚度有很大影响。忽略应变渗透也会影响构件的耗能能力，但影响程序较小。”&lt;/p&gt;
+
+&lt;p&gt;“Experimental studies have generally reported that this end rotation contributes up to 35% to the lateral deformation of flexural members.4-6 The strain penetration and the associated end rotation also greatly influence the localized strains and curvature in the critical regions and stiffness of the flexural member. Ignoring the strain penetration also affects the energy dissipation capacity of the members, but to a lesser extent.”&lt;/p&gt;
+
+&lt;p&gt;初步理解，这种效应是极细微的效应，只有结构进入到严重的弹塑性状态才需要考虑，而且数值模拟困难，需要很多非线性单位简化。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S.  未深入研究，简单的个人理解记录于此，望专业人士斧正。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;参考&#34;&gt;参考&lt;/h4&gt;
+
+&lt;p&gt;[1] Sritharan, S.; Priestley, N.; and Seible, F., “Nonlinear Finite Element Analyses of Concrete Bridge Joint Systems Subjected to Seismic Actions,” Finite Elements in Analysis and Design, V. 36, 2000, pp. 215-233.&lt;/p&gt;
+
+&lt;p&gt;[2] Jian Zhao; Sritharan, S, &amp;ldquo;Modeling of Strain Penetration Effects in Fiber-Based Analysis of Reinforced Concrete Structures&amp;rdquo;, ACI Structural Journal, March-April 2007, pp. 133-141.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Revit 2017 Add-In Template Set</title>
+      <link>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</link>
+      <pubDate>Thu, 02 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</guid>
+      <description>&lt;p&gt;前段时间总结过一次&lt;a href=&#34;http://www.lubanren.net/weblog/post/290.html&#34; target=&#34;_blank&#34;&gt;Revit二次开发的调试方法&lt;/a&gt;，实际用的过程中还是觉得不够方便。只到最近发现了超方便的开发模板——&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;Revit 2017 Add-In Template Set&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这是一款俄罗斯朋友开发的Revit 2017 插件开发模板，针对Visual Studio 2015，开源于&lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;。使用这个模板，可以一键解决引用位置自动匹配、启动Revit或使用Addin Manager免启动调试等问题。具体请看作者的&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;readme.md&lt;/a&gt;吧。
+
+内容主要包括：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Revit 2017 External Application (C# Project Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 External DBApplication (C# Project Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 Class Library (C# Project Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 External Command (C# Item Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 External Command Availability (C# Item Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 Updater (C# Item Template)&lt;/li&gt;
+&lt;li&gt;Revit 2017 New Class (C# Item Template)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;安装和使用视频（来自youtube，请自行翻墙）:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;#001. &lt;a href=&#34;https://www.youtube.com/watch?v=SYm-yxQ9jFk&amp;amp;t=1s&#34; target=&#34;_blank&#34;&gt;Download and install the templates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#002. &lt;a href=&#34;https://www.youtube.com/watch?v=TU5HoTxpgbk&amp;amp;t=5s&#34; target=&#34;_blank&#34;&gt;Create new project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#003. &lt;a href=&#34;https://www.youtube.com/watch?v=mtw8PAf5eus&amp;amp;t=2s&#34; target=&#34;_blank&#34;&gt;Add new command&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#004. &lt;a href=&#34;https://www.youtube.com/watch?v=-_79p0CnKJY&amp;amp;t=8s&#34; target=&#34;_blank&#34;&gt;Link the command with the command availability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#005. &lt;a href=&#34;https://www.youtube.com/watch?v=wlskC5PTmH8&amp;amp;t=4s&#34; target=&#34;_blank&#34;&gt;Add ribbon tabs and panels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#006. &lt;a href=&#34;https://www.youtube.com/watch?v=_aQ30GHl3as&amp;amp;t=1s&#34; target=&#34;_blank&#34;&gt;Template resources using&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#007. &lt;a href=&#34;https://www.youtube.com/watch?v=abxy-Ynff3w&#34; target=&#34;_blank&#34;&gt;Multilanguage add-ins creating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;#008. &lt;a href=&#34;https://www.youtube.com/watch?v=QFFwG6rz0gc&#34; target=&#34;_blank&#34;&gt;Debugging using Add-In Manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S&lt;/strong&gt; &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;真是个好东西，给作者留言没几个小时就得到热心解决，体验很棒。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AutoCAD三维（3D）模型投影为二维（2D）模型</title>
+      <link>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Sat, 18 Feb 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</guid>
+      <description>&lt;p&gt;有些时候（比如在绘制专利示意图时），需要将三维的CAD模型投影为二维，以方便插入word文档。AutoCAD中自带的&lt;strong&gt;FLATSHOT&lt;/strong&gt; 多数情况下是可以满足我们的需求的，但当三维模型从Revit转过来时，&lt;strong&gt;FLATSHOT&lt;/strong&gt;命令可能会不起作用，那这时怎么办呢？&lt;/p&gt;
+
+&lt;p&gt;没关系，AutoCAD还提供了另外一种更通用的方法：&lt;a href=&#34;http://help.autodesk.com/view/ACD/2015/CHS/?caas=caas/sfdcarticles/sfdcarticles/CHS/Flatten-3D-model-to-2D.html&#34; title=&#34;AutoCAD 帮助文档&#34; target=&#34;_blank&#34;&gt;将三维（3D）模型打印成DXB文件&lt;/a&gt;。只是这种方法有点繁琐罢了，具体记录如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加绘图仪向导&lt;/strong&gt;
+通过三维模型创建二维图形的另一种方法是使用“添加绘图仪向导”配置 DXB 绘图仪。&lt;strong&gt;注意&lt;/strong&gt;：先前版本使用 &lt;strong&gt;DXBOUT&lt;/strong&gt; 命令导出为 DXB 文件格式，但此命令已停止使用，并由以下配置替代：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在命令行中，键入 &lt;strong&gt;PLOTTERMANAGER&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;双击&lt;strong&gt;添加绘图仪向导&lt;/strong&gt;快捷方式图标。&lt;/li&gt;
+&lt;li&gt;在“开始”页面上，选择&lt;strong&gt;我的电脑&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“绘图仪型号”页面的“制造商”下，选择 &lt;strong&gt;AutoCAD DXB 文件&lt;/strong&gt;。在“型号”下选择 &lt;strong&gt;DXB 文件&lt;/strong&gt;。选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“输入 PCP 或 PC2”页面上，选择&lt;strong&gt;输入文件&lt;/strong&gt;，然后选择&lt;strong&gt;要输入的 PCP 或 PC2 文件&lt;/strong&gt;（可选）。选择&lt;strong&gt;输入&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“端口”页面中，选择&lt;strong&gt;打印到文件&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“绘图仪名称”页面中，&lt;strong&gt;输入绘图仪配置文件的名称&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“完成”对话框中，选择&lt;strong&gt;完成&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新的绘图仪配置文件 (PC3) 创建完毕。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;创建 DXB 绘图仪配置之后，请继续执行以下步骤：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;打开需要展平的图形。&lt;/li&gt;
+&lt;li&gt;根据需要设置三维模型的视点。&lt;/li&gt;
+&lt;li&gt;启动 &lt;strong&gt;PLOT&lt;/strong&gt; 命令。&lt;/li&gt;
+&lt;li&gt;在“绘图仪配置名称”对话框的“打印设备”选项卡上，从可用的打印机列表中选择 &lt;strong&gt;DXB 绘图仪&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;单击&lt;strong&gt;确定&lt;/strong&gt;以创建 DXB 格式打印文件。&lt;/li&gt;
+&lt;li&gt;新建图形。&lt;/li&gt;
+&lt;li&gt;在命令行中，启动 &lt;strong&gt;DXBIN&lt;/strong&gt; 命令。（同样，此命令在 AutoCAD LT 2009 和更高版本中也不可用）。&lt;/li&gt;
+&lt;li&gt;出现提示后，&lt;strong&gt;浏览到您刚才创建的文件&lt;/strong&gt;，然后单击&lt;strong&gt;确定&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;图形打开后，将图形另存为 DWG 格式的文件。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在，您将通过原始图形获得模型的新二维表示。所有 *Z* 坐标信息将在新图形中删除。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;u&gt;DXB 绘图仪配置会将所有颜色数据均转换为黑色和白色，并将所有图形几何图形放置在层 0 上。&lt;/u&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>SQLite中文数据打开乱码问题</title>
+      <link>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 21 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;p&gt;最近遇到一个乱码的问题，在用&lt;a href=&#34;http://www.sqliteexpert.com/&#34; target=&#34;_blank&#34;&gt;SQLite Expert&lt;/a&gt;打开SQLite数据库时，如果记录中有中文，通常显示乱码，而偶又很想知道这个结乱码的是什么。于是就想到用python读取这些数据是否能显示正常呢？用以下代码进行了测试:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# -*- coding: UTF-8 –*-
+import sqlite3
+
+conn=sqlite3.connect(&#39;e:\test.db&#39;)
+with conn:
+    curs=conn.cursor()    
+    curs.execute(&amp;quot;XXX&amp;quot;)#XXX为SQL查询语句
+    datas=curs.fetchall()
+    fout=file(&#39;dbout.txt&#39;,&#39;w&#39;)
+    for data in datas:
+        print data[0],data[1],data[2],data[3]
+        fout.write(&amp;quot;%s\t%s\t%s\t%s\n&amp;quot; % (str(data[0]),str(data[1]),str(data[2]),str(data[3])))
+    fout.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;结果产生如下异常提示：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;OperationalError: Could not decode to UTF-8 column &#39;name&#39; with text &#39;活载&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;看来可能是编码的问题，而且python肯定能正常读取，于进一点Google之，发现只需要在连接后添加&lt;code&gt;conn.text_factory = str&lt;/code&gt;即可正常执行。此语句设置python使用什么类型来处理sqlite3的text类型，默认是unicode，应该是python尝试将中文的text转成unicode时产生了错误。正常的代码段如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#...
+conn=sqlite3.connect(&#39;e:\test.db&#39;)
+conn.text_factory = str #注意在连接后添加此语句
+#...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;至于SQLite Expert中如何正常显示，偶没有找到办法，不过不影响使用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>理解Revit中的各种参数</title>
+      <link>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
+      <pubDate>Sat, 09 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
+      <description>&lt;p&gt;Revit模型可以说是“一切皆族，一切皆有参数”。今天就说说Revit中的参数。
+####参数的种类
+Revit中项目（即Project）可以看作是一个特殊的族（即Family），项目中可载入别的族文件，族文件还可以嵌套另一个族，以此类推。相应的，Revit中的参数在项目层级可分为项目参数和共享参数两类；在族层级也可分为族参数和共享参数两类。族层级的族参数类似于项目参数，是依附于族而特有的参数。
+另一方面，族又可分为多种不同的族实例，所以根据参数的作用范围不同，上述两类参数均又可分为类型参数和实例参数。类型参数只在类型中可见，实例参数只在族实例中可见。&lt;/p&gt;
+
+&lt;h4 id=&#34;导图&#34;&gt;导图&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2016/4/revitpara.png&#34; alt=&#34;Revit参数&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;很绕口吧：）这个架构其实和程序开发的“面向对象”类似，族相当于“面向对象”的类（Class），面向对象的基础是类，参数相当于“面向对象”的属性。对比来看，自然不难理解。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

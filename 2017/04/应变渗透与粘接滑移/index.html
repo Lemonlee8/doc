@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.20.1" />
+  <meta name="author" content="李黎明">
+  <meta name="description" content="建筑结构工程师">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+  <link rel="feed" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/">
+
+  
+
+  <title>应变渗透与粘接滑移 | LubanRen</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">LubanRen</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>文章</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>工程经验</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">应变渗透与粘接滑移</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-04-15 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2017-04-15
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/%e6%b7%b7%e5%87%9d%e5%9c%9f">混凝土</a
+    >, 
+    
+    <a href="/tags/%e9%9d%9e%e7%ba%bf%e6%80%a7">非线性</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flemonlee8.github.io%2f2017%2f04%2f%25E5%25BA%2594%25E5%258F%2598%25E6%25B8%2597%25E9%2580%258F%25E4%25B8%258E%25E7%25B2%2598%25E6%258E%25A5%25E6%25BB%2591%25E7%25A7%25BB%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e5%ba%94%e5%8f%98%e6%b8%97%e9%80%8f%e4%b8%8e%e7%b2%98%e6%8e%a5%e6%bb%91%e7%a7%bb&amp;url=https%3a%2f%2flemonlee8.github.io%2f2017%2f04%2f%25E5%25BA%2594%25E5%258F%2598%25E6%25B8%2597%25E9%2580%258F%25E4%25B8%258E%25E7%25B2%2598%25E6%258E%25A5%25E6%25BB%2591%25E7%25A7%25BB%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flemonlee8.github.io%2f2017%2f04%2f%25E5%25BA%2594%25E5%258F%2598%25E6%25B8%2597%25E9%2580%258F%25E4%25B8%258E%25E7%25B2%2598%25E6%258E%25A5%25E6%25BB%2591%25E7%25A7%25BB%2f&amp;title=%e5%ba%94%e5%8f%98%e6%b8%97%e9%80%8f%e4%b8%8e%e7%b2%98%e6%8e%a5%e6%bb%91%e7%a7%bb"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flemonlee8.github.io%2f2017%2f04%2f%25E5%25BA%2594%25E5%258F%2598%25E6%25B8%2597%25E9%2580%258F%25E4%25B8%258E%25E7%25B2%2598%25E6%258E%25A5%25E6%25BB%2591%25E7%25A7%25BB%2f&amp;title=%e5%ba%94%e5%8f%98%e6%b8%97%e9%80%8f%e4%b8%8e%e7%b2%98%e6%8e%a5%e6%bb%91%e7%a7%bb"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e5%ba%94%e5%8f%98%e6%b8%97%e9%80%8f%e4%b8%8e%e7%b2%98%e6%8e%a5%e6%bb%91%e7%a7%bb&amp;body=https%3a%2f%2flemonlee8.github.io%2f2017%2f04%2f%25E5%25BA%2594%25E5%258F%2598%25E6%25B8%2597%25E9%2580%258F%25E4%25B8%258E%25E7%25B2%2598%25E6%258E%25A5%25E6%25BB%2591%25E7%25A7%25BB%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>最近，遇到一个新概念：应变渗透（Strain Penetration）。名字听起来很高深的样子，同时发现<a href="https://www.zhihu.com/question/40954658" target="_blank">知乎</a>上也有人在问这个概念，于是通过查阅文献给自己科普了一下。</p>
+
+<h4 id="原理简述">原理简述</h4>
+
+<p>假设一根钢筋充分锚固于混凝土中（这里充分锚固一般指满足规范的锚固长度），当有一个非常大的拉力作用于钢筋端头并使钢筋屈服，很明显拉力是通过钢筋逐渐传递到混凝土中去的，沿着钢筋的长度方向由外到内钢筋的拉应力逐渐减小，混凝土的粘接力整体上逐渐增加，直到某一点钢筋拉应力为零时，可以认为完成了拉力的传递。在拉力传递的过程中，钢筋的应变和混凝土的应变均是逐渐变化的，因此形象地称之为<strong>应变渗透（Strain Penetration）</strong>。</p>
+
+<p>在拉力传递的过程中，在钢筋的应变小于混凝土的极限应变的区段，可以认为钢筋和混凝土的变形是协调的，而在钢筋的应变超过混凝土的极限应变区段，钢筋和混凝土的变形是不协调的，由于不同应变的累积效应，在混凝土的表面，钢筋表现为明显的滑移。这种现象我们称之为<strong>粘结滑移（Bond-Slip）</strong>。粘接滑移的结果是在混凝土的表面形成裂缝，或者对于受弯构件端部发生转动，形成塑性铰。</p>
+
+<p>参考图1和图2，图片均来自于Sritharan, S的论文。</p>
+
+<p><em>图1 充分锚固钢筋的应变渗透</em></p>
+
+<p><img src="http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration2.PNG" alt="图1 充分锚固钢筋的应变渗透" /></p>
+
+<p><em>图2 桥墩与盖梁节点在充分锚固时的粘结滑移</em></p>
+
+<p><img src="http://www.lubanren.net/weblog/zb_users/upload/2017/4/strain_penetration1.PNG" alt="图2 桥墩与盖梁节点在充分锚固时的粘结滑移" /></p>
+
+<h4 id="何时考虑">何时考虑</h4>
+
+<p>“试验研究表时，这种粘结滑移引起的端部转动影响可占到受弯构件侧向变形的35%。应变渗透和与其相关的构件端部转角对受弯构件临界区域的局部应变和曲率、以及受弯构件的刚度有很大影响。忽略应变渗透也会影响构件的耗能能力，但影响程序较小。”</p>
+
+<p>“Experimental studies have generally reported that this end rotation contributes up to 35% to the lateral deformation of flexural members.4-6 The strain penetration and the associated end rotation also greatly influence the localized strains and curvature in the critical regions and stiffness of the flexural member. Ignoring the strain penetration also affects the energy dissipation capacity of the members, but to a lesser extent.”</p>
+
+<p>初步理解，这种效应是极细微的效应，只有结构进入到严重的弹塑性状态才需要考虑，而且数值模拟困难，需要很多非线性单位简化。</p>
+
+<p><em>P.S.  未深入研究，简单的个人理解记录于此，望专业人士斧正。</em></p>
+
+<h4 id="参考">参考</h4>
+
+<p>[1] Sritharan, S.; Priestley, N.; and Seible, F., “Nonlinear Finite Element Analyses of Concrete Bridge Joint Systems Subjected to Seismic Actions,” Finite Elements in Analysis and Design, V. 36, 2000, pp. 215-233.</p>
+
+<p>[2] Jian Zhao; Sritharan, S, &ldquo;Modeling of Strain Penetration Effects in Fiber-Based Analysis of Reinforced Concrete Structures&rdquo;, ACI Structural Journal, March-April 2007, pp. 133-141.</p>
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/"><span
+      aria-hidden="true">&larr;</span> Revit 2017 Add-In Template Set</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+    
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2131226"></script>
+    
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2005-2017 LubanRen &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+

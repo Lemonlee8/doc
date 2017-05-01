@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>参数 on LubanRen</title>
+    <link>https://lemonlee8.github.io/tags/%E5%8F%82%E6%95%B0/</link>
+    <description>Recent content in 参数 on LubanRen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
+    <lastBuildDate>Sat, 09 Apr 2016 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E5%8F%82%E6%95%B0/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>理解Revit中的各种参数</title>
+      <link>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
+      <pubDate>Sat, 09 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
+      <description>&lt;p&gt;Revit模型可以说是“一切皆族，一切皆有参数”。今天就说说Revit中的参数。
+####参数的种类
+Revit中项目（即Project）可以看作是一个特殊的族（即Family），项目中可载入别的族文件，族文件还可以嵌套另一个族，以此类推。相应的，Revit中的参数在项目层级可分为项目参数和共享参数两类；在族层级也可分为族参数和共享参数两类。族层级的族参数类似于项目参数，是依附于族而特有的参数。
+另一方面，族又可分为多种不同的族实例，所以根据参数的作用范围不同，上述两类参数均又可分为类型参数和实例参数。类型参数只在类型中可见，实例参数只在族实例中可见。&lt;/p&gt;
+
+&lt;h4 id=&#34;导图&#34;&gt;导图&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.lubanren.net/weblog/zb_users/upload/2016/4/revitpara.png&#34; alt=&#34;Revit参数&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;很绕口吧：）这个架构其实和程序开发的“面向对象”类似，族相当于“面向对象”的类（Class），面向对象的基础是类，参数相当于“面向对象”的属性。对比来看，自然不难理解。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

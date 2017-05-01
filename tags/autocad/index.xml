@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autocad on LubanRen</title>
+    <link>https://lemonlee8.github.io/tags/autocad/</link>
+    <description>Recent content in Autocad on LubanRen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
+    <lastBuildDate>Sat, 18 Feb 2017 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/autocad/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AutoCAD三维（3D）模型投影为二维（2D）模型</title>
+      <link>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Sat, 18 Feb 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</guid>
+      <description>&lt;p&gt;有些时候（比如在绘制专利示意图时），需要将三维的CAD模型投影为二维，以方便插入word文档。AutoCAD中自带的&lt;strong&gt;FLATSHOT&lt;/strong&gt; 多数情况下是可以满足我们的需求的，但当三维模型从Revit转过来时，&lt;strong&gt;FLATSHOT&lt;/strong&gt;命令可能会不起作用，那这时怎么办呢？&lt;/p&gt;
+
+&lt;p&gt;没关系，AutoCAD还提供了另外一种更通用的方法：&lt;a href=&#34;http://help.autodesk.com/view/ACD/2015/CHS/?caas=caas/sfdcarticles/sfdcarticles/CHS/Flatten-3D-model-to-2D.html&#34; title=&#34;AutoCAD 帮助文档&#34; target=&#34;_blank&#34;&gt;将三维（3D）模型打印成DXB文件&lt;/a&gt;。只是这种方法有点繁琐罢了，具体记录如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;添加绘图仪向导&lt;/strong&gt;
+通过三维模型创建二维图形的另一种方法是使用“添加绘图仪向导”配置 DXB 绘图仪。&lt;strong&gt;注意&lt;/strong&gt;：先前版本使用 &lt;strong&gt;DXBOUT&lt;/strong&gt; 命令导出为 DXB 文件格式，但此命令已停止使用，并由以下配置替代：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在命令行中，键入 &lt;strong&gt;PLOTTERMANAGER&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;双击&lt;strong&gt;添加绘图仪向导&lt;/strong&gt;快捷方式图标。&lt;/li&gt;
+&lt;li&gt;在“开始”页面上，选择&lt;strong&gt;我的电脑&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“绘图仪型号”页面的“制造商”下，选择 &lt;strong&gt;AutoCAD DXB 文件&lt;/strong&gt;。在“型号”下选择 &lt;strong&gt;DXB 文件&lt;/strong&gt;。选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“输入 PCP 或 PC2”页面上，选择&lt;strong&gt;输入文件&lt;/strong&gt;，然后选择&lt;strong&gt;要输入的 PCP 或 PC2 文件&lt;/strong&gt;（可选）。选择&lt;strong&gt;输入&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“端口”页面中，选择&lt;strong&gt;打印到文件&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“绘图仪名称”页面中，&lt;strong&gt;输入绘图仪配置文件的名称&lt;/strong&gt;，然后选择&lt;strong&gt;下一步&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在“完成”对话框中，选择&lt;strong&gt;完成&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;新的绘图仪配置文件 (PC3) 创建完毕。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;创建 DXB 绘图仪配置之后，请继续执行以下步骤：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;打开需要展平的图形。&lt;/li&gt;
+&lt;li&gt;根据需要设置三维模型的视点。&lt;/li&gt;
+&lt;li&gt;启动 &lt;strong&gt;PLOT&lt;/strong&gt; 命令。&lt;/li&gt;
+&lt;li&gt;在“绘图仪配置名称”对话框的“打印设备”选项卡上，从可用的打印机列表中选择 &lt;strong&gt;DXB 绘图仪&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;单击&lt;strong&gt;确定&lt;/strong&gt;以创建 DXB 格式打印文件。&lt;/li&gt;
+&lt;li&gt;新建图形。&lt;/li&gt;
+&lt;li&gt;在命令行中，启动 &lt;strong&gt;DXBIN&lt;/strong&gt; 命令。（同样，此命令在 AutoCAD LT 2009 和更高版本中也不可用）。&lt;/li&gt;
+&lt;li&gt;出现提示后，&lt;strong&gt;浏览到您刚才创建的文件&lt;/strong&gt;，然后单击&lt;strong&gt;确定&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;图形打开后，将图形另存为 DWG 格式的文件。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在，您将通过原始图形获得模型的新二维表示。所有 *Z* 坐标信息将在新图形中删除。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;u&gt;DXB 绘图仪配置会将所有颜色数据均转换为黑色和白色，并将所有图形几何图形放置在层 0 上。&lt;/u&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.20.1" />
+  <meta name="author" content="李黎明">
+  <meta name="description" content="建筑结构工程师">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+  <link rel="feed" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/">
+
+  
+
+  <title>SQLite中文数据打开乱码问题 | LubanRen</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">LubanRen</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>文章</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>工程经验</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">SQLite中文数据打开乱码问题</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-04-21 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2016-04-21
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/sqlite">SQLIte</a
+    >, 
+    
+    <a href="/tags/%e4%b9%b1%e7%a0%81">乱码</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flemonlee8.github.io%2f2016%2f04%2fsqlite%25E4%25B8%25AD%25E6%2596%2587%25E6%2595%25B0%25E6%258D%25AE%25E6%2589%2593%25E5%25BC%2580%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=SQLite%e4%b8%ad%e6%96%87%e6%95%b0%e6%8d%ae%e6%89%93%e5%bc%80%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98&amp;url=https%3a%2f%2flemonlee8.github.io%2f2016%2f04%2fsqlite%25E4%25B8%25AD%25E6%2596%2587%25E6%2595%25B0%25E6%258D%25AE%25E6%2589%2593%25E5%25BC%2580%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flemonlee8.github.io%2f2016%2f04%2fsqlite%25E4%25B8%25AD%25E6%2596%2587%25E6%2595%25B0%25E6%258D%25AE%25E6%2589%2593%25E5%25BC%2580%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598%2f&amp;title=SQLite%e4%b8%ad%e6%96%87%e6%95%b0%e6%8d%ae%e6%89%93%e5%bc%80%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flemonlee8.github.io%2f2016%2f04%2fsqlite%25E4%25B8%25AD%25E6%2596%2587%25E6%2595%25B0%25E6%258D%25AE%25E6%2589%2593%25E5%25BC%2580%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598%2f&amp;title=SQLite%e4%b8%ad%e6%96%87%e6%95%b0%e6%8d%ae%e6%89%93%e5%bc%80%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=SQLite%e4%b8%ad%e6%96%87%e6%95%b0%e6%8d%ae%e6%89%93%e5%bc%80%e4%b9%b1%e7%a0%81%e9%97%ae%e9%a2%98&amp;body=https%3a%2f%2flemonlee8.github.io%2f2016%2f04%2fsqlite%25E4%25B8%25AD%25E6%2596%2587%25E6%2595%25B0%25E6%258D%25AE%25E6%2589%2593%25E5%25BC%2580%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>最近遇到一个乱码的问题，在用<a href="http://www.sqliteexpert.com/" target="_blank">SQLite Expert</a>打开SQLite数据库时，如果记录中有中文，通常显示乱码，而偶又很想知道这个结乱码的是什么。于是就想到用python读取这些数据是否能显示正常呢？用以下代码进行了测试:</p>
+
+<pre><code class="language-python"># -*- coding: UTF-8 –*-
+import sqlite3
+
+conn=sqlite3.connect('e:\test.db')
+with conn:
+    curs=conn.cursor()    
+    curs.execute(&quot;XXX&quot;)#XXX为SQL查询语句
+    datas=curs.fetchall()
+    fout=file('dbout.txt','w')
+    for data in datas:
+        print data[0],data[1],data[2],data[3]
+        fout.write(&quot;%s\t%s\t%s\t%s\n&quot; % (str(data[0]),str(data[1]),str(data[2]),str(data[3])))
+    fout.close()
+</code></pre>
+
+<p>结果产生如下异常提示：</p>
+
+<pre><code>OperationalError: Could not decode to UTF-8 column 'name' with text '活载' 
+</code></pre>
+
+<p>看来可能是编码的问题，而且python肯定能正常读取，于进一点Google之，发现只需要在连接后添加<code>conn.text_factory = str</code>即可正常执行。此语句设置python使用什么类型来处理sqlite3的text类型，默认是unicode，应该是python尝试将中文的text转成unicode时产生了错误。正常的代码段如下：</p>
+
+<pre><code class="language-python">#...
+conn=sqlite3.connect('e:\test.db')
+conn.text_factory = str #注意在连接后添加此语句
+#...
+</code></pre>
+
+<p>至于SQLite Expert中如何正常显示，偶没有找到办法，不过不影响使用。</p>
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/"><span
+      aria-hidden="true">&larr;</span> 理解Revit中的各种参数</a></li>
+    
+
+    
+    <li class="next"><a href="https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/">AutoCAD三维（3D）模型投影为二维（2D）模型 <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+    
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2131226"></script>
+    
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2005-2017 LubanRen &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+

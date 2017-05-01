@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.20.1" />
+  <meta name="author" content="李黎明">
+  <meta name="description" content="建筑结构工程师">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://lemonlee8.github.io/tags/revit/index.xml" type="application/rss+xml" title="LubanRen">
+  <link rel="feed" href="https://lemonlee8.github.io/tags/revit/index.xml" type="application/rss+xml" title="LubanRen">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://lemonlee8.github.io/tags/revit/">
+
+  
+
+  <title>Revit | LubanRen</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">LubanRen</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>文章</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>工程经验</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="universal-wrapper">
+
+  <h1>Revit</h1>
+
+  
+
+  
+  
+  <div>
+    <h2><a href="https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/">Revit 2017 Add-In Template Set</a></h2>
+    <div class="article-style">
+      
+      前段时间总结过一次<a href="http://www.lubanren.net/weblog/post/290.html" target="_blank">Revit二次开发的调试方法</a>，实际用的过程中还是觉得不够方便。只到最近发现了超方便的开发模板——<a href="https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet" target="_blank">Revit 2017 Add-In Template Set</a>。</p>
+
+<p>这是一款俄罗斯朋友开发的Revit 2017 插件开发模板，针对Visual Studio 2015，开源于<a href="https://github.com" target="_blank">Github</a>。使用这个模板，可以一键解决引用位置自动匹配、启动Revit或使用Addin Manager免启动调试等问题。具体请看作者的<a href="https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet" target="_blank">readme.md</a>吧。
+
+内容主要包括：
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/">理解Revit中的各种参数</a></h2>
+    <div class="article-style">
+      
+      Revit模型可以说是“一切皆族，一切皆有参数”。今天就说说Revit中的参数。
+####参数的种类
+Revit中项目（即Project）可以看作是一个特殊的族（即Family），项目中可载入别的族文件，族文件还可以嵌套另一个族，以此类推。相应的，Revit中的参数在项目层级可分为项目参数和共享参数两类；在族层级也可分为族参数和共享参数两类。族层级的族参数类似于项目参数，是依附于族而特有的参数。
+另一方面，族又可分为多种不同的族实例，所以根据参数的作用范围不同，上述两类参数均又可分为类型参数和实例参数。类型参数只在类型中可见，实例参数只在族实例中可见。
+      
+    </div>
+  </div>
+  
+
+  
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2005-2017 LubanRen &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

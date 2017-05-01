@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>乱码 on LubanRen</title>
+    <link>https://lemonlee8.github.io/tags/%E4%B9%B1%E7%A0%81/</link>
+    <description>Recent content in 乱码 on LubanRen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
+    <lastBuildDate>Thu, 21 Apr 2016 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/%E4%B9%B1%E7%A0%81/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SQLite中文数据打开乱码问题</title>
+      <link>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 21 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;p&gt;最近遇到一个乱码的问题，在用&lt;a href=&#34;http://www.sqliteexpert.com/&#34; target=&#34;_blank&#34;&gt;SQLite Expert&lt;/a&gt;打开SQLite数据库时，如果记录中有中文，通常显示乱码，而偶又很想知道这个结乱码的是什么。于是就想到用python读取这些数据是否能显示正常呢？用以下代码进行了测试:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# -*- coding: UTF-8 –*-
+import sqlite3
+
+conn=sqlite3.connect(&#39;e:\test.db&#39;)
+with conn:
+    curs=conn.cursor()    
+    curs.execute(&amp;quot;XXX&amp;quot;)#XXX为SQL查询语句
+    datas=curs.fetchall()
+    fout=file(&#39;dbout.txt&#39;,&#39;w&#39;)
+    for data in datas:
+        print data[0],data[1],data[2],data[3]
+        fout.write(&amp;quot;%s\t%s\t%s\t%s\n&amp;quot; % (str(data[0]),str(data[1]),str(data[2]),str(data[3])))
+    fout.close()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;结果产生如下异常提示：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;OperationalError: Could not decode to UTF-8 column &#39;name&#39; with text &#39;活载&#39; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;看来可能是编码的问题，而且python肯定能正常读取，于进一点Google之，发现只需要在连接后添加&lt;code&gt;conn.text_factory = str&lt;/code&gt;即可正常执行。此语句设置python使用什么类型来处理sqlite3的text类型，默认是unicode，应该是python尝试将中文的text转成unicode时产生了错误。正常的代码段如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#...
+conn=sqlite3.connect(&#39;e:\test.db&#39;)
+conn.text_factory = str #注意在连接后添加此语句
+#...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;至于SQLite Expert中如何正常显示，偶没有找到办法，不过不影响使用。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

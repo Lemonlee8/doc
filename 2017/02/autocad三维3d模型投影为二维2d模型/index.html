@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.20.1" />
+  <meta name="author" content="李黎明">
+  <meta name="description" content="建筑结构工程师">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+  <link rel="feed" href="https://lemonlee8.github.io/index.xml" type="application/rss+xml" title="LubanRen">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/">
+
+  
+
+  <title>AutoCAD三维（3D）模型投影为二维（2D）模型 | LubanRen</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">LubanRen</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>文章</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>工程经验</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>关于</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">AutoCAD三维（3D）模型投影为二维（2D）模型</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-02-18 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      2017-02-18
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/autocad">AutoCAD</a
+    >, 
+    
+    <a href="/tags/%e6%8a%95%e5%bd%b1">投影</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flemonlee8.github.io%2f2017%2f02%2fautocad%25E4%25B8%2589%25E7%25BB%25B43d%25E6%25A8%25A1%25E5%259E%258B%25E6%258A%2595%25E5%25BD%25B1%25E4%25B8%25BA%25E4%25BA%258C%25E7%25BB%25B42d%25E6%25A8%25A1%25E5%259E%258B%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=AutoCAD%e4%b8%89%e7%bb%b4%ef%bc%883D%ef%bc%89%e6%a8%a1%e5%9e%8b%e6%8a%95%e5%bd%b1%e4%b8%ba%e4%ba%8c%e7%bb%b4%ef%bc%882D%ef%bc%89%e6%a8%a1%e5%9e%8b&amp;url=https%3a%2f%2flemonlee8.github.io%2f2017%2f02%2fautocad%25E4%25B8%2589%25E7%25BB%25B43d%25E6%25A8%25A1%25E5%259E%258B%25E6%258A%2595%25E5%25BD%25B1%25E4%25B8%25BA%25E4%25BA%258C%25E7%25BB%25B42d%25E6%25A8%25A1%25E5%259E%258B%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flemonlee8.github.io%2f2017%2f02%2fautocad%25E4%25B8%2589%25E7%25BB%25B43d%25E6%25A8%25A1%25E5%259E%258B%25E6%258A%2595%25E5%25BD%25B1%25E4%25B8%25BA%25E4%25BA%258C%25E7%25BB%25B42d%25E6%25A8%25A1%25E5%259E%258B%2f&amp;title=AutoCAD%e4%b8%89%e7%bb%b4%ef%bc%883D%ef%bc%89%e6%a8%a1%e5%9e%8b%e6%8a%95%e5%bd%b1%e4%b8%ba%e4%ba%8c%e7%bb%b4%ef%bc%882D%ef%bc%89%e6%a8%a1%e5%9e%8b"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flemonlee8.github.io%2f2017%2f02%2fautocad%25E4%25B8%2589%25E7%25BB%25B43d%25E6%25A8%25A1%25E5%259E%258B%25E6%258A%2595%25E5%25BD%25B1%25E4%25B8%25BA%25E4%25BA%258C%25E7%25BB%25B42d%25E6%25A8%25A1%25E5%259E%258B%2f&amp;title=AutoCAD%e4%b8%89%e7%bb%b4%ef%bc%883D%ef%bc%89%e6%a8%a1%e5%9e%8b%e6%8a%95%e5%bd%b1%e4%b8%ba%e4%ba%8c%e7%bb%b4%ef%bc%882D%ef%bc%89%e6%a8%a1%e5%9e%8b"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=AutoCAD%e4%b8%89%e7%bb%b4%ef%bc%883D%ef%bc%89%e6%a8%a1%e5%9e%8b%e6%8a%95%e5%bd%b1%e4%b8%ba%e4%ba%8c%e7%bb%b4%ef%bc%882D%ef%bc%89%e6%a8%a1%e5%9e%8b&amp;body=https%3a%2f%2flemonlee8.github.io%2f2017%2f02%2fautocad%25E4%25B8%2589%25E7%25BB%25B43d%25E6%25A8%25A1%25E5%259E%258B%25E6%258A%2595%25E5%25BD%25B1%25E4%25B8%25BA%25E4%25BA%258C%25E7%25BB%25B42d%25E6%25A8%25A1%25E5%259E%258B%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>有些时候（比如在绘制专利示意图时），需要将三维的CAD模型投影为二维，以方便插入word文档。AutoCAD中自带的<strong>FLATSHOT</strong> 多数情况下是可以满足我们的需求的，但当三维模型从Revit转过来时，<strong>FLATSHOT</strong>命令可能会不起作用，那这时怎么办呢？</p>
+
+<p>没关系，AutoCAD还提供了另外一种更通用的方法：<a href="http://help.autodesk.com/view/ACD/2015/CHS/?caas=caas/sfdcarticles/sfdcarticles/CHS/Flatten-3D-model-to-2D.html" title="AutoCAD 帮助文档" target="_blank">将三维（3D）模型打印成DXB文件</a>。只是这种方法有点繁琐罢了，具体记录如下：</p>
+
+<blockquote>
+<p><strong>添加绘图仪向导</strong>
+通过三维模型创建二维图形的另一种方法是使用“添加绘图仪向导”配置 DXB 绘图仪。<strong>注意</strong>：先前版本使用 <strong>DXBOUT</strong> 命令导出为 DXB 文件格式，但此命令已停止使用，并由以下配置替代：</p>
+
+<ol>
+<li>在命令行中，键入 <strong>PLOTTERMANAGER</strong>。</li>
+<li>双击<strong>添加绘图仪向导</strong>快捷方式图标。</li>
+<li>在“开始”页面上，选择<strong>我的电脑</strong>，然后选择<strong>下一步</strong>。</li>
+<li>在“绘图仪型号”页面的“制造商”下，选择 <strong>AutoCAD DXB 文件</strong>。在“型号”下选择 <strong>DXB 文件</strong>。选择<strong>下一步</strong>。</li>
+<li>在“输入 PCP 或 PC2”页面上，选择<strong>输入文件</strong>，然后选择<strong>要输入的 PCP 或 PC2 文件</strong>（可选）。选择<strong>输入</strong>，然后选择<strong>下一步</strong>。</li>
+<li>在“端口”页面中，选择<strong>打印到文件</strong>，然后选择<strong>下一步</strong>。</li>
+<li>在“绘图仪名称”页面中，<strong>输入绘图仪配置文件的名称</strong>，然后选择<strong>下一步</strong>。</li>
+<li>在“完成”对话框中，选择<strong>完成</strong>。</li>
+<li>新的绘图仪配置文件 (PC3) 创建完毕。</li>
+</ol>
+
+<p><strong>创建 DXB 绘图仪配置之后，请继续执行以下步骤：</strong></p>
+
+<ol>
+<li>打开需要展平的图形。</li>
+<li>根据需要设置三维模型的视点。</li>
+<li>启动 <strong>PLOT</strong> 命令。</li>
+<li>在“绘图仪配置名称”对话框的“打印设备”选项卡上，从可用的打印机列表中选择 <strong>DXB 绘图仪</strong>。</li>
+<li>单击<strong>确定</strong>以创建 DXB 格式打印文件。</li>
+<li>新建图形。</li>
+<li>在命令行中，启动 <strong>DXBIN</strong> 命令。（同样，此命令在 AutoCAD LT 2009 和更高版本中也不可用）。</li>
+<li>出现提示后，<strong>浏览到您刚才创建的文件</strong>，然后单击<strong>确定</strong>。</li>
+<li>图形打开后，将图形另存为 DWG 格式的文件。</li>
+</ol>
+
+<p>现在，您将通过原始图形获得模型的新二维表示。所有 *Z* 坐标信息将在新图形中删除。</p>
+
+<p><strong>注意：</strong><u>DXB 绘图仪配置会将所有颜色数据均转换为黑色和白色，并将所有图形几何图形放置在层 0 上。</u></p>
+</blockquote>
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/"><span
+      aria-hidden="true">&larr;</span> SQLite中文数据打开乱码问题</a></li>
+    
+
+    
+    <li class="next"><a href="https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/">Revit 2017 Add-In Template Set <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+    
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2131226"></script>
+    
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2005-2017 LubanRen &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+

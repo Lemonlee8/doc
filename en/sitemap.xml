@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/categories/" hreflang="zh"/>
+    
+      <loc>https://lemonlee8.github.io/en/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/" hreflang="zh"/>
+    
+      <loc>https://lemonlee8.github.io/en/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/publication_types/" hreflang="zh"/>
+    
+      <loc>https://lemonlee8.github.io/en/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/tags/" hreflang="zh"/>
+    
+      <loc>https://lemonlee8.github.io/en/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>
