@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revit on LubanRen</title>
-    <link>https://lemonlee8.github.io/tags/revit/</link>
+    <link>https://lemonlee8.github.io/doc/tags/revit/</link>
     <description>Recent content in Revit on LubanRen</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/revit/" rel="self" type="application/rss+xml" />
+    <atom:link href="/doc/tags/revit/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Revit 2017 Add-In Template Set</title>
-      <link>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</link>
+      <link>https://lemonlee8.github.io/doc/2017/03/revit-2017-add-in-template-set/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</guid>
+      <guid>https://lemonlee8.github.io/doc/2017/03/revit-2017-add-in-template-set/</guid>
       <description>&lt;p&gt;前段时间总结过一次&lt;a href=&#34;http://www.lubanren.net/weblog/post/290.html&#34; target=&#34;_blank&#34;&gt;Revit二次开发的调试方法&lt;/a&gt;，实际用的过程中还是觉得不够方便。只到最近发现了超方便的开发模板——&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;Revit 2017 Add-In Template Set&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;这是一款俄罗斯朋友开发的Revit 2017 插件开发模板，针对Visual Studio 2015，开源于&lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;。使用这个模板，可以一键解决引用位置自动匹配、启动Revit或使用Addin Manager免启动调试等问题。具体请看作者的&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;readme.md&lt;/a&gt;吧。
@@ -49,10 +49,10 @@
     
     <item>
       <title>理解Revit中的各种参数</title>
-      <link>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
+      <link>https://lemonlee8.github.io/doc/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
       <pubDate>Sat, 09 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
+      <guid>https://lemonlee8.github.io/doc/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
       <description>&lt;p&gt;Revit模型可以说是“一切皆族，一切皆有参数”。今天就说说Revit中的参数。
 ####参数的种类
 Revit中项目（即Project）可以看作是一个特殊的族（即Family），项目中可载入别的族文件，族文件还可以嵌套另一个族，以此类推。相应的，Revit中的参数在项目层级可分为项目参数和共享参数两类；在族层级也可分为族参数和共享参数两类。族层级的族参数类似于项目参数，是依附于族而特有的参数。

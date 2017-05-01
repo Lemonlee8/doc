@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sqlite on LubanRen</title>
-    <link>https://lemonlee8.github.io/tags/sqlite/</link>
+    <link>https://lemonlee8.github.io/doc/tags/sqlite/</link>
     <description>Recent content in Sqlite on LubanRen</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
     <lastBuildDate>Thu, 21 Apr 2016 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/sqlite/" rel="self" type="application/rss+xml" />
+    <atom:link href="/doc/tags/sqlite/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SQLite中文数据打开乱码问题</title>
-      <link>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <link>https://lemonlee8.github.io/doc/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 21 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://lemonlee8.github.io/doc/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;最近遇到一个乱码的问题，在用&lt;a href=&#34;http://www.sqliteexpert.com/&#34; target=&#34;_blank&#34;&gt;SQLite Expert&lt;/a&gt;打开SQLite数据库时，如果记录中有中文，通常显示乱码，而偶又很想知道这个结乱码的是什么。于是就想到用python读取这些数据是否能显示正常呢？用以下代码进行了测试:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# -*- coding: UTF-8 –*-

@@ -5,10 +5,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/categories/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/en/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/categories/" hreflang="zh"/>
     
-      <loc>https://lemonlee8.github.io/en/categories/</loc>
+      <loc>https://lemonlee8.github.io/doc/en/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -17,10 +17,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/en/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/" hreflang="zh"/>
     
-      <loc>https://lemonlee8.github.io/en/</loc>
+      <loc>https://lemonlee8.github.io/doc/en/</loc>
       <priority>0</priority>
     </url>
     
@@ -29,10 +29,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/publication_types/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/en/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/publication_types/" hreflang="zh"/>
     
-      <loc>https://lemonlee8.github.io/en/publication_types/</loc>
+      <loc>https://lemonlee8.github.io/doc/en/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -41,10 +41,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/en/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/tags/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/en/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/tags/" hreflang="zh"/>
     
-      <loc>https://lemonlee8.github.io/en/tags/</loc>
+      <loc>https://lemonlee8.github.io/doc/en/tags/</loc>
       <priority>0</priority>
     </url>
     

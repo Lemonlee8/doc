@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客 on LubanRen</title>
-    <link>https://lemonlee8.github.io/post/</link>
+    <link>https://lemonlee8.github.io/doc/post/</link>
     <description>Recent content in 博客 on LubanRen</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    <atom:link href="/doc/post/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>应变渗透与粘接滑移</title>
-      <link>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
+      <link>https://lemonlee8.github.io/doc/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
       <pubDate>Sat, 15 Apr 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
+      <guid>https://lemonlee8.github.io/doc/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
       <description>&lt;p&gt;最近，遇到一个新概念：应变渗透（Strain Penetration）。名字听起来很高深的样子，同时发现&lt;a href=&#34;https://www.zhihu.com/question/40954658&#34; target=&#34;_blank&#34;&gt;知乎&lt;/a&gt;上也有人在问这个概念，于是通过查阅文献给自己科普了一下。&lt;/p&gt;
 
 &lt;h4 id=&#34;原理简述&#34;&gt;原理简述&lt;/h4&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Revit 2017 Add-In Template Set</title>
-      <link>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</link>
+      <link>https://lemonlee8.github.io/doc/2017/03/revit-2017-add-in-template-set/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2017/03/revit-2017-add-in-template-set/</guid>
+      <guid>https://lemonlee8.github.io/doc/2017/03/revit-2017-add-in-template-set/</guid>
       <description>&lt;p&gt;前段时间总结过一次&lt;a href=&#34;http://www.lubanren.net/weblog/post/290.html&#34; target=&#34;_blank&#34;&gt;Revit二次开发的调试方法&lt;/a&gt;，实际用的过程中还是觉得不够方便。只到最近发现了超方便的开发模板——&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;Revit 2017 Add-In Template Set&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;这是一款俄罗斯朋友开发的Revit 2017 插件开发模板，针对Visual Studio 2015，开源于&lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;。使用这个模板，可以一键解决引用位置自动匹配、启动Revit或使用Addin Manager免启动调试等问题。具体请看作者的&lt;a href=&#34;https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet&#34; target=&#34;_blank&#34;&gt;readme.md&lt;/a&gt;吧。
@@ -90,10 +90,10 @@
     
     <item>
       <title>AutoCAD三维（3D）模型投影为二维（2D）模型</title>
-      <link>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://lemonlee8.github.io/doc/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Sat, 18 Feb 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://lemonlee8.github.io/doc/2017/02/autocad%E4%B8%89%E7%BB%B43d%E6%A8%A1%E5%9E%8B%E6%8A%95%E5%BD%B1%E4%B8%BA%E4%BA%8C%E7%BB%B42d%E6%A8%A1%E5%9E%8B/</guid>
       <description>&lt;p&gt;有些时候（比如在绘制专利示意图时），需要将三维的CAD模型投影为二维，以方便插入word文档。AutoCAD中自带的&lt;strong&gt;FLATSHOT&lt;/strong&gt; 多数情况下是可以满足我们的需求的，但当三维模型从Revit转过来时，&lt;strong&gt;FLATSHOT&lt;/strong&gt;命令可能会不起作用，那这时怎么办呢？&lt;/p&gt;
 
 &lt;p&gt;没关系，AutoCAD还提供了另外一种更通用的方法：&lt;a href=&#34;http://help.autodesk.com/view/ACD/2015/CHS/?caas=caas/sfdcarticles/sfdcarticles/CHS/Flatten-3D-model-to-2D.html&#34; title=&#34;AutoCAD 帮助文档&#34; target=&#34;_blank&#34;&gt;将三维（3D）模型打印成DXB文件&lt;/a&gt;。只是这种方法有点繁琐罢了，具体记录如下：&lt;/p&gt;
@@ -136,10 +136,10 @@
     
     <item>
       <title>SQLite中文数据打开乱码问题</title>
-      <link>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <link>https://lemonlee8.github.io/doc/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 21 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://lemonlee8.github.io/doc/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;最近遇到一个乱码的问题，在用&lt;a href=&#34;http://www.sqliteexpert.com/&#34; target=&#34;_blank&#34;&gt;SQLite Expert&lt;/a&gt;打开SQLite数据库时，如果记录中有中文，通常显示乱码，而偶又很想知道这个结乱码的是什么。于是就想到用python读取这些数据是否能显示正常呢？用以下代码进行了测试:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# -*- coding: UTF-8 –*-
@@ -175,10 +175,10 @@ conn.text_factory = str #注意在连接后添加此语句
     
     <item>
       <title>理解Revit中的各种参数</title>
-      <link>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
+      <link>https://lemonlee8.github.io/doc/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</link>
       <pubDate>Sat, 09 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
+      <guid>https://lemonlee8.github.io/doc/2016/04/%E7%90%86%E8%A7%A3revit%E4%B8%AD%E7%9A%84%E5%90%84%E7%A7%8D%E5%8F%82%E6%95%B0/</guid>
       <description>&lt;p&gt;Revit模型可以说是“一切皆族，一切皆有参数”。今天就说说Revit中的参数。
 ####参数的种类
 Revit中项目（即Project）可以看作是一个特殊的族（即Family），项目中可载入别的族文件，族文件还可以嵌套另一个族，以此类推。相应的，Revit中的参数在项目层级可分为项目参数和共享参数两类；在族层级也可分为族参数和共享参数两类。族层级的族参数类似于项目参数，是依附于族而特有的参数。

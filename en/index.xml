@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LubanRen on LubanRen</title>
-    <link>https://lemonlee8.github.io/en/</link>
+    <link>https://lemonlee8.github.io/doc/en/</link>
     <description>Recent content in LubanRen on LubanRen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
-    <atom:link href="/en/" rel="self" type="application/rss+xml" />
+    <atom:link href="/doc/en/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>混凝土 on LubanRen</title>
-    <link>https://lemonlee8.github.io/tags/%E6%B7%B7%E5%87%9D%E5%9C%9F/</link>
+    <link>https://lemonlee8.github.io/doc/tags/%E6%B7%B7%E5%87%9D%E5%9C%9F/</link>
     <description>Recent content in 混凝土 on LubanRen</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2005-2017 LubanRen</copyright>
     <lastBuildDate>Sat, 15 Apr 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/%E6%B7%B7%E5%87%9D%E5%9C%9F/" rel="self" type="application/rss+xml" />
+    <atom:link href="/doc/tags/%E6%B7%B7%E5%87%9D%E5%9C%9F/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>应变渗透与粘接滑移</title>
-      <link>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
+      <link>https://lemonlee8.github.io/doc/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</link>
       <pubDate>Sat, 15 Apr 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://lemonlee8.github.io/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
+      <guid>https://lemonlee8.github.io/doc/2017/04/%E5%BA%94%E5%8F%98%E6%B8%97%E9%80%8F%E4%B8%8E%E7%B2%98%E6%8E%A5%E6%BB%91%E7%A7%BB/</guid>
       <description>&lt;p&gt;最近，遇到一个新概念：应变渗透（Strain Penetration）。名字听起来很高深的样子，同时发现&lt;a href=&#34;https://www.zhihu.com/question/40954658&#34; target=&#34;_blank&#34;&gt;知乎&lt;/a&gt;上也有人在问这个概念，于是通过查阅文献给自己科普了一下。&lt;/p&gt;
 
 &lt;h4 id=&#34;原理简述&#34;&gt;原理简述&lt;/h4&gt;
