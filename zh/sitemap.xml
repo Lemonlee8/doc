@@ -50,24 +50,6 @@
     
     <url>
     
-      <loc>https://lemonlee8.github.io/doc/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://lemonlee8.github.io/doc/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://lemonlee8.github.io/doc/2016/04/sqlite%E4%B8%AD%E6%96%87%E6%95%B0%E6%8D%AE%E6%89%93%E5%BC%80%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
       <lastmod>2016-04-21T12:00:00+00:00</lastmod>
     </url>
@@ -108,41 +90,11 @@
     
     <url>
     
-      <loc>https://lemonlee8.github.io/doc/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://lemonlee8.github.io/doc/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://lemonlee8.github.io/doc/en/" hreflang="en"/>
     
       <loc>https://lemonlee8.github.io/doc/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://lemonlee8.github.io/doc/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

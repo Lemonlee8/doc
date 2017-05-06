@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://lemonlee8.github.io/doc/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2017-04-15T12:00:00+00:00</lastmod>
+	   	<loc>https://lemonlee8.github.io/doc/en/sitemap.xml</loc>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://lemonlee8.github.io/doc/en/sitemap.xml</loc>
+	   	<loc>https://lemonlee8.github.io/doc/zh/sitemap.xml</loc>
+		
+	   	<lastmod>2017-04-15T12:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
